@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "eternalwinter",
+  "version": "${version}",
+  "name": "Eternal Winter",
+  "description": "Eternal Winter is a small mod that enables snow in every biome",
+  "authors": [
+    "ichttt"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/eternal-winter",
+    "issues": "https://github.com/ichttt/Eternal-Winter/issues"
+  },
+  "license": "GPL-3.0-only",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "ichttt.mods.eternalwinter.EternalWinter"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
